@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+@font-face {
+  font-family: Vazir;
+  src: url(./Vazir-Medium.ttf);
+
+  font-weight: normal;
+}
+body {
+  background: url(./image\ 5.png) no-repeat;
+  background-size: cover;
+  font-family: Vazir;
+}
+.form {
+  margin: 150px auto;
+  width: 410px;
+  height: 600px;
+
+  background: rgba(255, 255, 255, 0.124);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+}
+.logo-img {
+  display: block;
+  margin: 20px auto 10px;
+}
+.Welcome-part {
+  text-align: center;
+}
+.request-text {
+  color: #757575;
+  margin: 10px 0px;
+  text-align: center;
+}
+.icons-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.icons {
+  padding: 5px 38px;
+  border: 1px solid rgba(75, 75, 75, 0.787);
+  border-radius: 15px;
+}
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 25px 30px;
+}
+
+.divider span {
+  height: 2px;
+  background-color: #fcfcfc;
+  flex: 1;
+}
+
+.divider p {
+  margin: 0;
+  color: #777;
+  font-size: 14px;
+}
+.E-P_input {
+  background: rgba(255, 255, 255, 0);
+  font-size: 1rem;
+  width: 100%;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid black;
+}
+.E-P_input:focus{
+outline: none;
+border: 2px solid black;
+}
+.input1,
+.input2 {
+  margin: 20px 0px;
+}
+.iputs {
+  margin: 0px 20px;
+}
+label {
+  display: block;
+}
+.checkbox-container {
+  display: flex;
+  justify-content: start;
+  margin: 10px 20px;
+}
+.Forgot {
+  margin-left: 85px;
+  color: #757575;
+}
+.checkbox-container input {
+  margin: 0px 5px 0px 0px;
+}
+.sign-in {
+  display: flex;
+  justify-content: center;
+}
+
+.sign-in-btn {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 20px;
+  border-radius: 15px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+}
+.sign-up {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.sign-up {
+  color: #757575;
+}
+.sign-up-a {
+  color: black;
+  font-size: 1rem;
+}
